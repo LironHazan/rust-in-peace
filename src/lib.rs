@@ -19,7 +19,7 @@ fn main() {
         iframe.set_attribute("src", "https://www.youtube.com/embed/Mmbo4jQBKVU");
 
         let h2 = document.create_element("h2")?;
-        h2.set_inner_html("Rust In Peace mad by Rust!");
+        h2.set_inner_html("Rust In Peace made by Rust!");
 
         body.append_child(&h2)?;
         body.append_child(&iframe)?;
