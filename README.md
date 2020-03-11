@@ -11,8 +11,13 @@ New to Rust? stuff to install:
 
 Here for WebAssembly?
 - Install: wasm-pack (building, testing, and publishing Rust-generated WebAssembly).
-
+ 
 How to build this project?
+
+Build  rust first:
+- `wasm-pack build`
+
+Then build the web app:
 - `npm i`
 - `npm run serve`
 
